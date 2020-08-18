@@ -21,12 +21,12 @@ def main():
     # Some of the code below this line works, and some does not.
     # Uncomment the code that works
     # ----------------------------------------------------------
-    # custlist.keys()
-    # vendordict.get('juniper')
-    # custlist.get('umbrella corporation')
-    # custlist.update('nsx')
-    # vendordict.update({'cisco': False})
-    # vendordict.sort()
+    #custlist.keys()
+    vendordict.get('juniper')
+    #custlist.get('umbrella corporation')
+    #custlist.update('nsx')
+    vendordict.update({'cisco': False})
+    #vendordict.sort()
 
 if __name__ == "__main__":
     main()   
