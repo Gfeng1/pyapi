@@ -21,3 +21,6 @@ print("Our new story featuring Steven Baty and his narwhal friends:\n", noandroi
 novowels = re.sub(r"[aeiou]+", "", androidsDream)  # remove any vowels and replace with an empty string
 print("r nw stry ftrng Stvn Bty nd hs nrwhl frnds:\n", novowels)
 
+bangs = re.sub(r".", "!!", novowels)  # replaces all the . (periods) with two !! (bangs)
+print("r nw stry ftrng Stvn Bty nd hs nrwhl frnds:\n", bangs)
+

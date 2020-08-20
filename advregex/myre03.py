@@ -4,6 +4,7 @@ import re
 wood = "How much wood would a woodchuck chuck if a woodchuck could chuck wood?"
 search1 = re.findall(r"wo\w+", wood)        # r"..." for raw string the \w search for a "word"
 print("Results of re.findall(r'wo\w+', wood):", search1)
+print("Number of wo within the sentence", len(search1))
 
 search2 = re.findall(r"o+", wood)
 print("Results of re.findall(r'o+', wood):", search2)
